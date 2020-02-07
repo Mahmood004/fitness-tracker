@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "testing": [
+        "dist/testing"
+      ],
+      "testing/*": [
+        "dist/testing/*"
+      ]
+    }
   }
 }
